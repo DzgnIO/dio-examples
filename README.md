@@ -1,3 +1,7 @@
-# DIO Syling Examples
+# DIO Toolkit
 
-Readme coming soon!
+A open set of resources to help you development better and quicker with simple stlying blocks.
+
+For example an Emoji CSS font or or a hover over effect.
+
+Enjoy the full power of the toolkit at toolkit.dzgn.io
