@@ -1,3 +1,5 @@
+<!--Produced by Dzgn.IO as part of our open toolkit-->
+
 <html>
 
 <head>
@@ -5,14 +7,16 @@
 </head>
 
 <body style="background-color: #666">
-  <div class="image-container">
-    <img src="image.jpg" class="image" />
-    <span class="text">TEST</span>
+
+  <div class="thumbnail-container">
+    <img src="image.jpg" class="thumbnail-image" />
+    <span class="thumbnail-text">TEST</span>
   </div>
+
 </body>
 
 <style>
-  .image-container {
+  .thumbnail-container {
     position: relative;
     display: block;
     width: 250px;
@@ -20,20 +24,20 @@
     opacity: 1;
   }
   
-  .image-container:hover .text {
+  .thumbnail-container:hover .thumbnail-text {
     opacity: 1;
   }
   
-  .image-container:hover .image {
+  .thumbnail-container:hover .thumbnail-image {
     opacity: 0.6;
   }
   
-  .image {
+  .thumbnail-image {
     width: 100%;
     opacity: 1;
   }
   
-  .text {
+  .thumbnail-text {
     position: absolute;
     bottom: 10px;
     left: 10px;
